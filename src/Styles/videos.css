@@ -1,0 +1,27 @@
+body{
+    overflow-x: hidden;
+}
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.movies-container img{
+    width: 250px;
+    height: 350px;
+    margin: 25px 0px 4px 15px;
+    border-radius: 18px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movies-container h3, .movies-container img{
+    cursor: pointer;
+    transition: .7s;
+}
+
+
+
